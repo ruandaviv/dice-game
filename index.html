@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DICE GAME</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="container">
+        <header>
+          <h1>Jogo dos Dados 🎲</h1>
+        </header>
+
+        <main>
+          <div class="dice">
+            <div>
+              <p class="player 1">Jogador 1</p>
+              <img src="dice1.svg" alt="" class="dice-1" />
+              <p class="player score-1">Pontos: 0</p>
+            </div>
+            <div>
+              <p class="player 2">Jogador 2</p>
+              <img src="dice1.svg" alt="" class="dice-2" />
+              <p class="player score-2">Pontos: 0</p>
+            </div>
+          </div>
+          <div class="roll-dice">
+            <button>Gire os dados</button>
+          </div>
+
+          <div class="winner hide">
+            <p><span class="bold">Jogador 1 </span>venceu! 🥳</p>
+          </div>
+
+          <div class="finish-game">
+            <button class="finish hide">Terminar o jogo</button>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
